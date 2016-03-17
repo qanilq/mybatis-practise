@@ -20,7 +20,7 @@ public class StudentService {
             StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
             return studentMapper.findAllStudents();
         } finally {
-            sqlSession.close();
+            sqlSession.close();//close
         }
     }
 
