@@ -1,7 +1,7 @@
 package com.jpmc.anil.mybatis;
 
 import java.util.Date;
-
+//new feature
 public class Student {
 
     private Integer studId;
